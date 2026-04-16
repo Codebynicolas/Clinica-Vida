@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Segurança -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://via.placeholder.com; style-src 'self'; script-src 'self';">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta name="referrer" content="no-referrer">
+
+  <title>Clínica Vida+</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+<header>
+  <h1>Clínica Vida+</h1>
+  <p>Cuidando da sua saúde com tecnologia e excelência</p>
+</header>
+
+<div class="container" id="main-content">
+
+  <section>
+    <h2>Nossos Serviços</h2>
+    <div class="servicos-grid">
+
+      <div class="card">
+        <img src="img/medico.jpg" alt="Atendimento Médico" onerror="this.src='https://via.placeholder.com/300x200?text=Imagem+não+encontrada'">
+        <h3>Atendimento Médico</h3>
+        <p>Consultas com profissionais qualificados.</p>
+      </div>
+
+      <div class="card">
+        <img src="img/exame.jpg" alt="Exames" onerror="this.src='https://via.placeholder.com/300x200?text=Imagem+não+encontrada'">
+        <h3>Exames</h3>
+        <p>Laboratoriais e de imagem com alta precisão.</p>
+      </div>
+
+      <div class="card">
+        <img src="img/nutricao.jpg" alt="Nutrição" onerror="this.src='https://via.placeholder.com/300x200?text=Imagem+não+encontrada'">
+        <h3>Nutrição</h3>
+        <p>Acompanhamento alimentar personalizado.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Nossa Equipe</h2>
+    <div class="equipe-grid">
+
+      <div class="membro">
+        <img src="img/medico1.jpg" alt="Médico" onerror="this.src='https://via.placeholder.com/100x100?text=Médico'">
+        <h3>Dr. João Silva</h3>
+        <p>Clínico Geral</p>
+      </div>
+
+      <div class="membro">
+        <img src="img/nutricionista.jpg" alt="Nutricionista" onerror="this.src='https://via.placeholder.com/100x100?text=Nutricionista'">
+        <h3>Dra. Ana Souza</h3>
+        <p>Nutricionista</p>
+      </div>
+
+      <div class="membro">
+        <img src="img/radiologista.jpg" alt="Radiologista" onerror="this.src='https://via.placeholder.com/100x100?text=Radiologista'">
+        <h3>Dr. Carlos Lima</h3>
+        <p>Radiologista</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <div class="form-container">
+      <form id="formulario">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" placeholder="Seu nome" required maxlength="50">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" placeholder="Seu e-mail" required maxlength="100">
+        </div>
+        <div class="form-group">
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" placeholder="Sua cidade" required maxlength="50" list="cidades">
+          <datalist id="cidades">
+            <option value="São Paulo">
+            <option value="Rio de Janeiro">
+            <option value="Belo Horizonte">
+            <option value="Brasília">
+            <option value="Salvador">
+          </datalist>
+        </div>
+        <div class="form-group">
+          <label for="estado">Estado:</label>
+          <select id="estado" required>
+            <option value="">Selecione</option>
+            <option value="SP">SP</option>
+            <option value="GO">GO</option>
+            <option value="DF">DF</option>
+            <option value="RJ">RJ</option>
+            <option value="MG">MG</option>
+          </select>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  © 2026 Clínica Vida+ — Todos os direitos reservados
+</footer>
+
+  <noscript>
+    <p>Este site requer JavaScript para funcionar corretamente. Por favor, habilite o JavaScript no seu navegador.</p>
+  </noscript>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
