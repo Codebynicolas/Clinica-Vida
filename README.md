@@ -2,15 +2,15 @@
 
 Landing page desenvolvida para apresentação de uma clínica de saúde.
 
-## 🔗 Acesso ao projeto
-(cole aqui depois o link do GitHub Pages)
+## Acesso ao projeto
+ https://codebynicolas.github.io/Clinica-Vida/
 
 ## Tecnologias utilizadas
 - HTML5
 - CSS3
 - JavaScript
 
-## 📂 Estrutura do projeto
+## Estrutura do projeto
 
 clinica-vida/
 │
@@ -19,7 +19,7 @@ clinica-vida/
 ├── js/
 └── img/
 
-## ▶️ Como executar
+## Como executar
 
 1. Clonar o repositório:
 git clone https://github.com/Codebynicolas/Clinica-Vida.git
